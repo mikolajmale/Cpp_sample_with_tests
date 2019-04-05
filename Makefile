@@ -10,9 +10,6 @@ APPS=$(wildcard *.out)
 
 LDFLAGS= -std=c++11 -Wall
 
-all: $(OBJECTS) $(TEST_OBJECTS)
-	g++ -o $@ $^ $(LDFLAGS)
-
 source: $(OBJECTS)
 	g++ $(LDFLAGS) -o $@ $^ 
 
