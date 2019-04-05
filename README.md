@@ -5,3 +5,17 @@ Test framework: **Catch2**
 ```
 make source
 ```
+
+## Making test code
+```
+make tests
+```
+
+## Making both
+```
+make tests
+```
+## Cleaning project
+```
+make clean
+```
