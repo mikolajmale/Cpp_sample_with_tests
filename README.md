@@ -11,10 +11,6 @@ make source
 make tests
 ```
 
-## Making both
-```
-make
-```
 ## Cleaning project
 ```
 make clean
