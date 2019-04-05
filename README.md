@@ -13,7 +13,7 @@ make tests
 
 ## Making both
 ```
-make tests
+make
 ```
 ## Cleaning project
 ```
